@@ -20,7 +20,13 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -40,6 +46,17 @@
           "iCloudContainerEnvironment": "Production"
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d37ecea0-e028-4b35-9942-5b9013c53365"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d37ecea0-e028-4b35-9942-5b9013c53365"
+    }
   }
 }
